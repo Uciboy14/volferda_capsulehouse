@@ -1,0 +1,44 @@
+* {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}
+IMG {
+	BORDER-BOTTOM-STYLE: none; BORDER-RIGHT-STYLE: none; BORDER-TOP-STYLE: none; BORDER-LEFT-STYLE: none
+}
+.galleryPicsWraper {
+	MARGIN-TOP: 1em; WIDTH: 100%; HEIGHT: 59px;
+}
+.galleryPicsWraper .product_gallery { display:block;  float:left;}
+.galleryPicsWraper .picBtns {
+	FLOAT: left; 
+}
+.galleryPicsWraper .product_gallery LI {
+	LIST-STYLE-TYPE: none; FLOAT: left; _margin: 0
+}
+.galleryPicsWraper .product_gallery LI SPAN {
+margin: 0 5px; FLOAT: left; CURSOR: pointer;
+}
+.galleryPicsWraper .product_gallery LI SPAN a { display:block;	BORDER: #eee 1px solid; }
+.galleryPicsWraper .product_gallery LI SPAN a.cur {
+	BORDER: #1611bb 1px solid;
+}
+.galleryPicsWraper .product_gallery LI SPAN IMG {
+	WIDTH:53px; HEIGHT: 53px; VERTICAL-ALIGN: top
+}
+.galleryPicsWraper .picBtns SPAN {
+	WIDTH: 15px; BACKGROUND: url(../images/pic_btns.gif) left center no-repeat; FLOAT: left; HEIGHT: 55px; CURSOR: pointer
+}
+.galleryPicsWraper .picBtns SPAN.nextPic {
+	BACKGROUND-POSITION: -16px center
+}
+#mainImage {
+	BORDER-BOTTOM: #ddd 1px solid; BORDER-LEFT: #ddd 1px solid;/* WIDTH: 382px; HEIGHT: 280px;*/BORDER: #eee 1px solid; text-align:center;
+}
+#mainImage IMG {
+	 VERTICAL-ALIGN: top; 
+}
+@media screen and (max-width: 1120px)
+{
+	.galleryPicsWraper .product_gallery LI SPAN IMG { width:49px; height:49px;}
+	}
+
+
